@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bài 1: Hỏi đáp </title> 
+</head>
+<style>
+    h1 {font-size:50px; text-align: center;}
+    h2 {text-align: center;}
+    p {text-align: center;}
+    form {text-align: center;}
+</style>
+<body>
+    <h1> Đố vui có thưởng </h1>
+    <h2> Chọn đáp án điền vào chỗ trống </h2>
+    <p> 早上好中國, 現在我有 "..." 我很喜歡冰淇淋 </p>
+    <p> Chọn 1 trong các từ dưới đây: </p>
+    <form>
+        <input type="radio" id="vn" name="bingchilling">
+        <label for="vn"> kem </label><br>
+        <input type="radio" id="en" name="bingchilling">
+        <label for="en"> cream </label><br>
+        <input type="radio" id="cn" name="bingchilling">
+        <label for="cn"> 冰淇淋 </label>
+    </form>
+    <p> <button onclick="bingchilling()"> Trả lời </button> </p>
+    <p id="noti" style="font-size:20px; color:red;"> </p>
+    <p id="image"> </p>
+</body>
+<script src="./C5_1.js"> </script>
+</html>
